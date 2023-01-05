@@ -120,6 +120,6 @@ You can do it again same steps from **development** to **main/origin**.
 
 The workflow show looks like this:
 
-![Git Workflow]("./git_workflow.png" "Title")
-
-<img src=".\git_workflow.png" alt="Git Workflow" />
+<p align="center">
+  <img src=".\git_workflow.png" alt="Git Workflow" />
+</p>
