@@ -121,5 +121,5 @@ You can do it again same steps from **development** to **main/origin**.
 The workflow show looks like this:
 
 <p align="center">
-  <img src="./git_workflow.png" alt="Git Workflow" />
+  <img src="git_workflow.png" alt="Git Workflow" />
 </p>
