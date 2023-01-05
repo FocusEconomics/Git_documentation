@@ -120,4 +120,9 @@ You can do it again same steps from **development** to **main/origin**.
 
 The workflow show looks like this:
 
+
+<p align="center">
+
   <img src="./git_workflow.PNG" alt="Git Workflow" />
+
+</p>
