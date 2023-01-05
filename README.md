@@ -121,4 +121,4 @@ You can do it again same steps from **development** to **main/origin**.
 The workflow show looks like this:
 
 
-<img src="C:\Users\janl\Desktop\_Projects\git_workflow.png" alt="MarineGEO circle logo" />
+<img src=".\git_workflow.png" alt="Git Workflow" />
