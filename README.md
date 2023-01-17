@@ -126,3 +126,8 @@ The workflow show looks like this:
   <img src="./git_workflow.PNG" alt="Git Workflow" />
 
 </p>
+
+- 3. Delete feature branch
+```branch
+git branch --delete branch_to_delete
+```
