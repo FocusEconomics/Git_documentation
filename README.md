@@ -120,7 +120,8 @@ You can do it again same steps from **development** to **main/origin**.
 
 The workflow show looks like this:
 
-- 3. Delete a branch
+- 3. Delete a branch:
+
 Is important to keep in mind that we must erase the branch from our local folder and then push it to Github in order to erase from both places!
 ```bash
 git branch -d name_of_branch
