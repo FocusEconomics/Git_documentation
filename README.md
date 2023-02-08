@@ -131,8 +131,23 @@ git branch -d name_of_branch
 git push origin --delete name_of_branch 
 ```
 
+- 4. Reset local repository with remote repo
 
+First if you want save your current work you should commit it and put it in a new branch:
+```bash
+git commit  -m -a "commit message -> backup branch"
+git branch back_up_branch
+``` 
 
+Then reset your repo to remote repo:
+
+```bash
+git fetch origin
+git reset --hard origin/master
+```
+```bash
+git clean -fdx
+```
 
 <p align="center">
 
