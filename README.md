@@ -131,7 +131,7 @@ git branch -d name_of_branch
 git push origin --delete name_of_branch 
 ```
 
-- 4. Reset local repository with remote repo
+## Reset local repository with remote repo
 
 First if you want save your current work you should commit it and put it in a new branch:
 ```bash
@@ -148,6 +148,28 @@ git reset --hard origin/master
 ```bash
 git clean -fdx
 ```
+
+## Merge conflict
+
+The fun part of Git is Merges conflict! When we have non-binary files or we edit a file in the two branches that we want merge it will pop up a merge conflict.
+Each case has a different solution, but one of the most common merge conflicts is caused by non-binary files (such as excel files).
+
+If you’re already in a conflicted state [git merge –abort], and you want to just accept all of theirs files (for example excel file in the branch that we are merging):
+
+```bash
+git checkout --theirs .
+git add .
+```
+In case you want to keep your files:
+
+```bash
+git checkout --ours .
+git add .
+```
+
+In case you want just keep scpecific file use the name of the specific file not the dot.
+
+  
 
 <p align="center">
 
